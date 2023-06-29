@@ -23,13 +23,29 @@
 }
 
 .col{
-    height: 100px;
     width: calc(100% / 3);
     float: left;
     padding: 5px;
 }
+
+.card {
+    background: black;
+}
+.card img {
+    width:100px;
+    float: left;
+}
+.card .content {
+    color: white;
+    padding-left: 110px;
+}
+
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
+}
+
+.content{
+    margin-top: 10px;
 }
