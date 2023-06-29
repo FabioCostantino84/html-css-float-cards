@@ -5,30 +5,36 @@
     font-family: 'Fredoka', sans-serif;
 }
 
-.container{
+.container {
     width: 80%;
     max-width: 1170px;
     margin: auto;
 }
 
-.title{
+.title {
     text-align: center;
 }
 
-h1{
+h1 {
     color: deeppink;
     margin: 20px;
 }
 
 p{
-    margin: 25px;
+    font-weight: 400;
+    margin: auto;
+    padding: 10px;
 }
 
-.row{
+h3{
+    font-weight: 600;
+}
+
+.row {
     padding: 5px;
 }
 
-.col{
+.col {
     width: calc(100% / 3);
     float: left;
     padding: 15px 10px;
@@ -37,17 +43,26 @@ p{
 .card {
     background: black;
 }
+
 .card img {
     width: 70px;
     float: left;
 }
+
 .card .content {
     color: white;
-    padding-left: 110px;
-    vertical-align: auto;
+    padding-left: 90px;
+}
+a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+a, span{
+    font-weight: 300;
+    font-size: 12px;
 }
 
-.clearfix::after{
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
