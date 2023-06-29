@@ -6,7 +6,7 @@
 }
 
 .container {
-    width: 80%;
+    width: 65%;
     max-width: 1170px;
     margin: auto;
 }
@@ -23,11 +23,12 @@ h1 {
 p {
     font-weight: 400;
     margin: auto;
-    padding: 10px;
 }
 
 h3 {
     font-weight: 600;
+    font-size: 17px;
+    padding-top: 2px;
 }
 
 .row {
@@ -42,12 +43,11 @@ h3 {
 
 .card {
     background: black;
-    border: 1px solid;
     box-shadow: 0px 0px 7px;
 }
 
 .card img {
-    width: 70px;
+    width: 65px;
     float: left;
 }
 
