@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*{
+    border: 1px solid black;
+}
+
+.container{
+    width: 80%;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.title{
+    text-align: center;
+}
+
+.row{
+    padding: 5px;
+}
+
+.col{
+    height: 100px;
+    width: calc(100% / 3);
+    float: left;
+    padding: 5px;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
