@@ -20,13 +20,13 @@ h1 {
     margin: 20px;
 }
 
-p{
+p {
     font-weight: 400;
     margin: auto;
     padding: 10px;
 }
 
-h3{
+h3 {
     font-weight: 600;
 }
 
@@ -42,6 +42,8 @@ h3{
 
 .card {
     background: black;
+    border: 1px solid;
+    box-shadow: 0px 0px 7px;
 }
 
 .card img {
@@ -53,11 +55,14 @@ h3{
     color: white;
     padding-left: 90px;
 }
-a{
+
+a {
     text-decoration: none;
     color: cornflowerblue;
 }
-a, span{
+
+a,
+span {
     font-weight: 300;
     font-size: 12px;
 }
