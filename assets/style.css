@@ -32,20 +32,17 @@
     background: black;
 }
 .card img {
-    width:100px;
+    width: 70px;
     float: left;
 }
 .card .content {
     color: white;
     padding-left: 110px;
+    vertical-align: auto;
 }
 
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
-}
-
-.content{
-    margin-top: 10px;
 }
