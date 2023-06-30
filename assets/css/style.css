@@ -2,10 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* #region utilities */
+
+body {
     font-family: 'Fredoka', sans-serif;
 }
 
-:root{
+:root {
     --tc-title: #e53170;
     --tc-accent: #55c2e2;
     --tc-card: #0f0e17;
@@ -13,6 +18,15 @@
     --tc-shadow: #cacac9;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* #endregion utilities */
+
+/* #region utilities */
 .container {
     width: 65%;
     max-width: 1170px;
@@ -65,7 +79,7 @@ h3 {
     padding-left: 90px;
 }
 
-a:hover{
+a:hover {
     color: blue;
 }
 
@@ -79,8 +93,4 @@ p {
     font-size: 12px;
 }
 
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
+/* #endregion utilities */
